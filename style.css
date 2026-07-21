@@ -144,3 +144,7 @@ button:active {
 .dark-mode h1 {
     color: white;
 }
+.clear-btn {
+    background: #d32f2f !important;
+    color: white !important;
+}
