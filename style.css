@@ -122,3 +122,25 @@ button:active {
 .dark-btn:hover {
     background: #000;
 }
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #1e1e1e;
+}
+
+.dark-mode input {
+    background: #333;
+    color: white;
+    border-color: #555;
+}
+
+.dark-mode label {
+    color: white;
+}
+
+.dark-mode h1 {
+    color: white;
+}
