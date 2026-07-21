@@ -1,3 +1,5 @@
+alert("JavaScript is working!");
+
 function generatePassword() {
 
     const length =
