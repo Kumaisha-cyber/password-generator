@@ -45,20 +45,42 @@ function generatePassword() {
 
     document.getElementById("password").value = password;
 
-    let strength = "";
+    let score = 0;
 
-    if (length < 8) {
-        strength = "Weak";
-    }
-    else if (length < 12) {
-        strength = "Medium";
-    }
-    else {
-        strength = "Strong";
-    }
+if (length >= 8) {
+    score++;
+}
 
-    document.getElementById("strength").textContent =
-        "Strength: " + strength;
+if (uppercase) {
+    score++;
+}
+
+if (lowercase) {
+    score++;
+}
+
+if (numbers) {
+    score++;
+}
+
+if (symbols) {
+    score++;
+}
+
+let strength = "";
+
+if (score <= 2) {
+    strength = "Weak";
+}
+else if (score <= 4) {
+    strength = "Medium";
+}
+else {
+    strength = "Strong";
+}
+
+document.getElementById("strength").textContent =
+    "Strength: " + strength;
 }
 
 
