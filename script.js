@@ -54,6 +54,11 @@ const listItem =
 listItem.textContent = password;
 
 history.appendChild(listItem);
+    
+  localStorage.setItem(
+    "passwordHistory",
+    history.innerHTML
+);  
 
     let score = 0;
 
