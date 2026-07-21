@@ -3,9 +3,12 @@ function generatePassword() {
     const characters =
         "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
 
-    let password = "";
+  const length =
+    document.getElementById("length").value;
 
-    for (let i = 0; i < 12; i++) {
+  let password = ""
+      
+  for (let i = 0; i < length; i++) {  
 
         let randomNumber =
             Math.floor(Math.random() * characters.length);
