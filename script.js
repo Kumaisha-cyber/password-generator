@@ -44,6 +44,16 @@ function generatePassword() {
     }
 
     document.getElementById("password").value = password;
+    
+    const history =
+    document.getElementById("history");
+
+const listItem =
+    document.createElement("li");
+
+listItem.textContent = password;
+
+history.appendChild(listItem);
 
     let score = 0;
 
