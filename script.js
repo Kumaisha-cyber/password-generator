@@ -15,3 +15,14 @@ function generatePassword() {
 
     document.getElementById("password").value = password;
 }
+function copyPassword() {
+
+    const passwordBox =
+        document.getElementById("password");
+
+    passwordBox.select();
+
+    navigator.clipboard.writeText(passwordBox.value);
+
+    alert("Password copied!");
+}
