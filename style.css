@@ -113,3 +113,12 @@ button:active {
 .show-btn:hover {
     background: #333 !important;
 }
+.dark-btn {
+    background: #222;
+    color: white;
+    width: 90%;
+}
+
+.dark-btn:hover {
+    background: #000;
+}
