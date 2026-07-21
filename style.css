@@ -106,10 +106,10 @@ button:active {
 
 }
 .show-btn {
-    background: #555;
-    color: white;
+    background: #555 !important;
+    color: white !important;
 }
 
 .show-btn:hover {
-    background: #333;
+    background: #333 !important;
 }
