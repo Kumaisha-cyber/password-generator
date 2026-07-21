@@ -72,3 +72,12 @@ button:last-of-type {
     background: #2196F3;
     color: white;
 }
+.generate-btn {
+    background: green;
+    color: white;
+}
+
+.copy-btn {
+    background: blue;
+    color: white;
+}
