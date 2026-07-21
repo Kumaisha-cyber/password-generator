@@ -136,7 +136,8 @@ function clearHistory() {
         document.getElementById("history");
 
     history.innerHTML = "";
-
+    
+    localStorage.removeItem("passwordHistory");
 }
 
 window.onload = function() {
