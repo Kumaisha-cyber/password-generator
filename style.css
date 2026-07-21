@@ -63,3 +63,12 @@ button:hover {
     font-weight: bold;
     margin: 15px;
 }
+button:first-of-type {
+    background: #4CAF50;
+    color: white;
+}
+
+button:last-of-type {
+    background: #2196F3;
+    color: white;
+}
