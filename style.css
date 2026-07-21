@@ -84,3 +84,24 @@ button:last-of-type {
 button:active {
     transform: scale(0.95);
 }
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button {
+        width: 90%;
+        margin: 8px auto;
+    }
+
+}
