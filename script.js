@@ -125,3 +125,11 @@ function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 
 }
+function clearHistory() {
+
+    const history =
+        document.getElementById("history");
+
+    history.innerHTML = "";
+
+}
