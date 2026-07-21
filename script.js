@@ -138,3 +138,17 @@ function clearHistory() {
     history.innerHTML = "";
 
 }
+
+window.onload = function() {
+
+    const savedHistory =
+        localStorage.getItem("passwordHistory");
+
+    if (savedHistory) {
+
+        document.getElementById("history").innerHTML =
+            savedHistory;
+
+    }
+
+};
