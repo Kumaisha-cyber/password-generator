@@ -73,3 +73,18 @@ function copyPassword() {
 
     alert("Password copied!");
 }
+function togglePassword() {
+
+    const passwordBox =
+        document.getElementById("password");
+
+    if (passwordBox.type === "password") {
+
+        passwordBox.type = "text";
+
+    } else {
+
+        passwordBox.type = "password";
+
+    }
+}
