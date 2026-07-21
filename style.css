@@ -17,6 +17,8 @@ body {
 
 h1 {
     margin-bottom: 25px;
+    font-size: 32px;
+    letter-spacing: 1px;
 }
 
 input[type="text"] {
@@ -49,6 +51,8 @@ button {
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
 }
 
 button:hover {
