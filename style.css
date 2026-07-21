@@ -105,3 +105,11 @@ button:active {
     }
 
 }
+.show-btn {
+    background: #555;
+    color: white;
+}
+
+.show-btn:hover {
+    background: #333;
+}
