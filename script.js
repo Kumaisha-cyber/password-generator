@@ -44,21 +44,24 @@ function generatePassword() {
     }
 
     document.getElementById("password").value = password;
+
     let strength = "";
 
-if (length < 8) {
-    strength = "Weak";
-}
-else if (length < 12) {
-    strength = "Medium";
-}
-else {
-    strength = "Strong";
+    if (length < 8) {
+        strength = "Weak";
+    }
+    else if (length < 12) {
+        strength = "Medium";
+    }
+    else {
+        strength = "Strong";
+    }
+
+    document.getElementById("strength").textContent =
+        "Strength: " + strength;
 }
 
-document.getElementById("strength").textContent =
-    "Strength: " + strength;
-}
+
 function copyPassword() {
 
     const passwordBox =
