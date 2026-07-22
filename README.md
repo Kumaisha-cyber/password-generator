@@ -3,6 +3,10 @@
 
 A simple and secure password generator built using HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+👉 [Open Password Generator](https://kumaisha-cyber.github.io/password-generator/)
+
 ## 🚀 Features
 
 - Generate random passwords
